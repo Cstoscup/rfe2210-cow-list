@@ -1,0 +1,132 @@
+body {
+  background-image: url('./cow.jpg');
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  display: block;
+  margin: 40px auto;
+  border: 1px solid #4f2e20;
+  border-radius: 4px;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  opacity: .90;
+  color: #4f2e20;
+}
+
+h1 {
+  margin: 0;
+}
+
+.upper-section {
+  display: flex;
+  gap: 20px;
+}
+
+.add-cow-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.add-cow-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  width: 100%;
+}
+
+.label {
+  width: 30%;
+}
+
+input[type="text"], textarea {
+  border: 1px solid #4f2e20;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  width: 70%;
+  outline: none;
+}
+
+input[type="submit"], button {
+  border: 1px solid #4f2e20;
+  border-radius: 4px;
+  background-color: #4f2e20;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cow-details {
+  width: 50%;
+  height: 270px;
+}
+
+.cow-details-heading {
+  text-align: center;
+  margin: 0;
+}
+
+.cow-name-heading {
+  text-align: center;
+}
+
+.cows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.cow-name {
+  border: 1px solid #4f2e20;
+  border-radius: 4px;
+  font-size: 20px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  transition: all 150ms ease-in-out;
+}
+
+.cow-name:hover {
+  background-color: #4f2e20;
+  color: white;
+}
+
+.cow-description {
+  margin: 0;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: 1px solid #4f2e20;
+  border-radius: 4px;
+  display: block;
+  margin: 5px auto;
+}
+
+.cow-description-image {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.cow-edit-section {
+  width: 100%;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}

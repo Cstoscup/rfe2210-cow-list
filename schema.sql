@@ -4,3 +4,15 @@
 -- CREATE YOUR DATABASE
 -- CREATE YOUR TABLES
 -- ADD RECORDS TO YOUR TABLE
+
+-- CREATE DATABASE cowlist;
+
+USE cowlist;
+
+CREATE TABLE cows (
+  id INT NOT NULL AUTO_INCREMENT,
+  name varchar(60) NOT NULL,
+  description varchar(255),
+  imageURL varchar(255),
+  PRIMARY KEY (id)
+)
